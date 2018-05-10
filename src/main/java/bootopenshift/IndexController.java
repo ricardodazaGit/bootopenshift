@@ -10,4 +10,8 @@ public class IndexController {
 	public String getIndexPage() {
 		return "index.html";
 	}
+	@RequestMapping("/publications")
+	public String getPublications() {
+		return "index.html";
+	}
 }
