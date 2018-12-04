@@ -14,4 +14,9 @@ public class IndexController {
 	public String getPublications() {
 		return "index.html";
 	}
+	
+	@RequestMapping("/publications/{id}")
+	public String getPublicationById(@PathVariable String id){
+		return "index.html";
+	}
 }
