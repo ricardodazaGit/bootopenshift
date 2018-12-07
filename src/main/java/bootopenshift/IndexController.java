@@ -15,10 +15,12 @@ public class IndexController {
 	public ModelAndView getHomePage() {
 		return modelAndView;
 	}
+	
 	@RequestMapping("/home")
 	public ModelAndView getIndexPage() {
 		return modelAndView;
 	}
+	
 	@RequestMapping("/publications")
 	public ModelAndView getPublications() {
 		return modelAndView;
