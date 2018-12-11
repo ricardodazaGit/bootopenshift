@@ -1,4 +1,4 @@
-package bootopenshift;
+package bootopenshift.controller;
 
 import static bootopenshift.utils.Constants.*;
 
@@ -19,6 +19,11 @@ public class IndexController {
 	
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public ModelAndView getIndexPage() {
+		return new ModelAndView(INDEX_PATH);
+	}
+	
+	@RequestMapping(value = "/contact", method = RequestMethod.GET)
+	public ModelAndView getContactPage() {
 		return new ModelAndView(INDEX_PATH);
 	}
 	

@@ -1,4 +1,4 @@
-package bootopenshift;
+package bootopenshift.controller;
 
 import static bootopenshift.utils.Constants.*;
 import org.springframework.stereotype.Controller;
