@@ -12,12 +12,12 @@ public class PublicationController {
 	
 	ModelAndView modelAndView = new ModelAndView(INDEX_PATH);
 	
-	@RequestMapping(value = "/publications", method = RequestMethod.GET)
+	@RequestMapping(value = "/perdizConReclamo", method = RequestMethod.GET)
 	public ModelAndView getPublicationsSlash() {
 		return modelAndView;
 	}
 	
-	@RequestMapping(value = "/publications/{id}", method = RequestMethod.GET)
+	@RequestMapping(value = "/perdizConReclamo/{id}", method = RequestMethod.GET)
 	public ModelAndView getPublicationById(@PathVariable String id) {
 		return modelAndView;
 	}
